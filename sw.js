@@ -1,5 +1,5 @@
 /* PintarSD service worker. Naikkan nomor V jika index.html berubah dan ingin dipaksa segar. */
-const V = 'pintarsd-v1', IMG = 'pintarsd-img';
+const V = 'pintarsd-v2', IMG = 'pintarsd-img';
 const CORE = ['./', 'index.html', 'manifest.json', 'icon-192.png', 'icon-512.png'];
 
 self.addEventListener('install', e => {
